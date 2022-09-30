@@ -1,0 +1,48 @@
+
+#container{
+   padding: 10px 30px; 
+}
+ 
+ .navbar .navbar-nav > li > a {
+    color: #fff !important;
+    border-right-color: #fff;
+	padding: 20px;
+}
+
+.navbar   {
+    background: #6c757d; 
+	color: #fff;
+    border : #fff; 
+	width: 100%;
+	margin-bottom: 20px;
+} 
+.error { 
+  background: #fff0f4; 
+  color: #c51244;
+  padding: 10px !important;
+  border-radius: 0 !important;
+  position: relative; 
+  display: inline-block !important;
+  box-shadow: 1px 1px 1px #aaaaaa;
+  margin-top: 10px;
+}
+.error  .validation:before{ 
+  content: ''; 
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #c51244;
+  position: absolute; 
+  top: -10px; 
+}
+.label:after{
+  color: #c51244 !important;
+}
+.error input, .error select, .error .choice-option{ 
+  background: #fff0f4; 
+  color: #c51244;
+}
+.error input, .error select{ 
+  border: 1px solid #c51244 !important; 
+}
